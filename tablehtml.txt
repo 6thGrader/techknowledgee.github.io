@@ -1,0 +1,15 @@
+<tr>
+    <td>VCR<img src="vcr.png" alt="vcr"></td>
+    <td>Media Player/Recorder</td>
+    <td>$399.99</td>
+</tr>
+<tr>
+    <td>CRT Display (640x480, 800x600, 1024x768)<img src="crt.webp" alt="crt"></td>
+    <td>Video Display</td>
+    <td>$99.99 $199.99 $299.99</td>
+</tr>
+<tr>
+    <td>Flat Panel Display (800x600, 1024x768)<img src="fpd.png" alt="fpd"></td>
+    <td>Video Display</td>
+    <td>$749.99 $899.99</td>
+</tr>
