@@ -19,9 +19,21 @@ p {text-align: left;}
     p {
         font-size: 20px;
     }
+@font-face {
+  font-family: "RuneS";
+  src:
+    local("RuneScape"),
+    url("runescape_uf.woff") format("woff");
+}
 
+@font-face {
+  font-family: "vcrosdmono";
+  src:
+    local("VCR OSD Mono"),
+    url("vcr-osd_mono.woff") format("woff");
+}
 body{
-    background-image: url("Zapotec.bmp")
+    background-image: url("Zapotec.jpg")
 }
     table, th, td {
   border: 1px solid black;
@@ -31,20 +43,25 @@ body{
 </style></head><body style="
 ">
     <h1 style="
-    font-family: verdana;
-    background: -webkit-linear-gradient(#888, #ddd);
+    font-family: vcrosdmono;
+    background: -webkit-linear-gradient(180deg, green, blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 36px;
+    font-size: 42px;
+    -webkit-text-stroke: lightgrey 0.1px;
 ">Welcome to our new online shop. Please take your time to select your items.</h1>
     <audio autoplay="true" loop="true" controls="true" src="elevator.wav" type="audio/wav" style="
     width: 100px;
     height: 40px;
 "> </audio>
-    <button onclick="window.location.href = 'index.html';">Feeling Homesick?</button>
+    <button onclick="window.location.href = 'index.html';" style="
+    border-style: outset;
+    border-color: white;
+">Feeling Homesick?</button>
     <hr>
 <table style="
-    font-family: verdana;
+    font-family: vcrosdmono;
+    font-size: medium;
 ">
     <tbody><tr><th>Name</th>
 <th>Type</th>
@@ -102,7 +119,7 @@ Pentium II, 4GB HDD,<br>
     <td>$199.99</td>
 </tr>
 <tr>
-    <td>100MB Zip Disk x1 Quantity<img src="zipdisc.png" alt="zipdisk"></td>
+    <td>100MB Zip Disk<br>x1 Quantity<img src="zipdisc.png" alt="zipdisk"></td>
     <td>Storage Device</td>
     <td>$14.99</td>
 </tr>
@@ -167,7 +184,7 @@ Pentium II, 4GB HDD,<br>
     <td>$199.99</td>
 </tr>
 <tr>
-    <td>Windows 2000 <br>Professional <br>Installation CD<img src="win2000pro.png" alt="win2000procd"></td>
+    <td>Windows 2000<br>Professional<br>Installation CD<img src="win2000pro.png" alt="win2000procd"></td>
     <td>Operating System</td>
     <td>$209.99</td>
 </tr>
@@ -178,7 +195,7 @@ Pentium II, 4GB HDD,<br>
 </tr>
 <tr>
     <td>VCR<img src="vcr.png" alt="vcr"></td>
-    <td>Media Player/Recorder</td>
+    <td>Media Player/<br>Recorder</td>
     <td>$399.99</td>
 </tr>
 <tr>
@@ -187,18 +204,19 @@ Pentium II, 4GB HDD,<br>
     <td>$99.99<br> $199.99<br> $299.99</td>
 </tr>
 <tr>
-    <td>Flat Panel Display<br> (800x600, 1024x768)<img src="fpd.png" alt="fpd"></td>
+    <td>Flat Panel Display<br>(800x600, 1024x768)<img src="fpd.png" alt="fpd"></td>
     <td>Video Display</td>
-    <td>$749.99<br> $899.99</td>
+    <td>$749.99<br>$899.99</td>
 </tr>
-        <tr><td>Adobe Photoshop 6.0</td><td>Computer Application</td><td>$699.99</td></tr>
-<tr><td>Adobe Acrobat 5.0</td><td>Computer Application</td><td>$449.99</td></tr>
-<tr><td>Adobe Illustrator 9.0</td><td>Computer Application</td><td>$599.99</td></tr>
-<tr><td>Microsoft Office 2000 Professional</td><td> Computer Application</td><td>$599.99</td></tr>
+        <tr><td>Adobe Photoshop 6.0<img src="photoshop.png" alt="photoshop"></td><td>Computer<br>Application</td><td>$699.99</td></tr>
+<tr><td>Adobe Acrobat 5.0<img src="acrobat.webp" alt="acrobat"></td><td>Computer<br>Application</td><td>$449.99</td></tr>
+<tr><td>Adobe Illustrator 9.0</td><td>Computer<br>Application</td><td>$599.99</td></tr>
+<tr><td>Microsoft Office 2000<br>Professional<img src="office2000.svg.png" alt="Office2000Pro"></td><td>Computer<br>Application</td><td>$599.99</td></tr>
+<tr><td>Microsoft Encarta<br>Reference Suite 2001<img src="encarta.webp" alt="encarta2001"></td><td>Computer<br>Application</td><td>$74.95</td></tr>
 <tr><td>SimCity 3000</td><td>Video Game</td><td>$59.99</td></tr>
 <tr><td>Quake 2</td><td>Video Game</td><td>$49.99</td></tr>
 <tr><td>Quake 3</td><td>Video Game</td><td>$54.99</td></tr>
-<tr><td>Half-Life (Cutting Edge!)</td><td>Video Game</td><td>$59.99</td></tr>
+<tr><td>Half-Life</td><td>Video Game</td><td>$59.99</td></tr>
 <tr><td>Age of Empires II</td><td>Video Game</td><td>$59.99</td></tr>
 <tr><td>Diablo II</td><td>Video Game</td><td>$59.99</td></tr>
 <tr><td>StarCraft</td><td>Video Game</td><td>$59.99</td></tr>
@@ -206,15 +224,15 @@ Pentium II, 4GB HDD,<br>
 <tr><td>Fallout 2</td><td>Video Game</td><td>$59.99</td></tr>
 <tr><td>The Sims</td><td>Video Game</td><td>$59.99</td></tr>
 <tr><td>Counter-Strike</td><td>Video Game</td><td>$59.99</td></tr>
-<tr><td>Duke Nukem 3D (NFFoH)</td><td>Video Game</td><td>$79.99 *NFFoH MARKUP*</td></tr>
+<tr><td>Duke Nukem 3D (NFFoH)</td><td>Video Game</td><td>$79.99<br>*NFFoH<br>MARKUP*</td></tr>
 <tr><td>Thief: The Dark Project</td><td>Video Game</td><td>$59.99</td></tr>
 <tr><td>System Shock 2</td><td>Video Game</td><td>$59.99</td></tr>
 <tr><td>Rollercoaster Tycoon</td><td>Video Game</td><td>$59.99</td></tr>
 <tr><td>Unreal Tournament</td><td>Video Game</td><td>$59.99</td></tr>
 <tr><td>Deus Ex</td><td>Video Game</td><td>$59.99</td></tr>
-<tr><td>Postal (NFFoH)</td><td>Video Game</td><td>$74.99 *NFFoH MARKUP*</td></tr>
+<tr><td>Postal (NFFoH)</td><td>Video Game</td><td>$74.99<br>*NFFoH<br>MARKUP*</td></tr>
         <tr><td>Mario Kart 64</td><td>Video Game</td><td>$59.99</td></tr>
-<tr><td>Legend of Zelda: Ocarina of Time</td><td>Video Game</td><td>$59.99</td></tr>
+<tr><td>Legend of Zelda:<br>Ocarina of Time</td><td>Video Game</td><td>$59.99</td></tr>
 <tr><td>Super Mario 64</td><td>Video Game</td><td>$59.99</td></tr>
 <tr><td>FM Radio</td><td>Radio</td><td>$79.99</td></tr>
 <tr><td>CD Player</td><td>Media Player</td><td>$199.99</td></tr>
